@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    background-color: #faebd7;
+    font-family: Arial, sans-serif;
+}
+
+/*-------------------------------------IMAGES-------------------------------------*/
+.WisudaIMG {
+    float: left;
+    margin-left: 15px;
+    padding: 10px;
+    width: auto;
+    height: 400px;
+}
+
+.SekolahIMG {
+    float: right;
+    margin-right: 5%;
+    width: 30%;
+    height: auto;
+}
+
+.ClearIMG {
+    float: left;
+    margin-left: 2%;
+    padding: 10px;
+    width: 22%;
+    height: auto;
+}
+
+.SitIMG {
+    width: 15%;
+    float: inline-end;
+    margin-left: 40%;
+    margin-right: 43%;
+    height: auto;
+}
+
+/*-------------------------------------DIV-------------------------------------*/
+.Orientation {
+    float: right;
+    margin-right: 20px;
+    width: 73%;
+    background-color: #333;
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+
+.School {
+    float: left;
+    margin-left: 20px;
+    width: 60%;
+    background-color: #333;
+    border-radius: 20px;
+    margin-top: 15px;
+}
+
+.Work {
+    float: right;
+    margin-right: 20px;
+    width: 70%;
+    background-color: #333;
+    border-radius: 20px;
+    margin-top: 15px;
+}
+
+.End {
+    background-color: #333;
+    border-radius: 20px;
+    margin-top: 15px;
+    width: 75%;
+    float: inline-end;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+}
+
+/*-------------------------------------TEXT-------------------------------------*/
+.Text0 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+}
+
+.Text1 {
+    padding: 20px;
+    text-align: left;
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    line-break: strict;
+    font-size: 23px;
+    line-height: 110%;
+    text-indent: 5%;
+}
+
+
+.Text2 {
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    line-break: strict;
+    font-size: 23px;
+    line-height: 110%;
+}
+
+/*-------------------------------------NAVBAR-------------------------------------*/
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+}
+
+nav .logo {
+    color: white;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 8px 12px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+    border-radius: 4px;
+}
